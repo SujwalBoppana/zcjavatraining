@@ -31,10 +31,10 @@ public class PrimeWithDebug {
 		System.out.println("Start ");
 		factorial();
 		isPrime();
-		int value =30;
-		int sum = value-- - --value + value/2;
-		
-		if(sum==12) {
+		int value = 30;
+		int sum = value-- - --value + value / 2;
+
+		if (sum == 12) {
 			System.out.println(sum);
 		}
 		System.out.println("End");

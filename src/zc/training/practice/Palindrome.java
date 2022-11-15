@@ -2,8 +2,6 @@ package zc.training.practice;
 
 public class Palindrome {
 
-	 
-
 	public static void isPalindrome(int sum, int num, int temp) {
 		if (temp == 0) {
 			if (num == sum) {
@@ -19,8 +17,8 @@ public class Palindrome {
 
 	public static void main(String[] args) {
 		int sum = 0;
-		 int num = 131;
-		 int temp = num;
-		isPalindrome(sum,num,temp);
+		int num = 131;
+		int temp = num;
+		isPalindrome(sum, num, temp);
 	}
 }
