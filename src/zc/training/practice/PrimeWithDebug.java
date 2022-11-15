@@ -2,11 +2,10 @@ package zc.training.practice;
 
 public class PrimeWithDebug {
 	public static void factorial() {
-		int i;
 		int fact = 1;
 		int number = 5;// It is the number to calculate factorial
-		for (i = 1; i <= number; i++) {
-			fact = fact * i;
+		for (int value = 1; value <= number; value++) {
+			fact = fact * value;
 		}
 		System.out.println("Factorial of " + number + " is: " + fact);
 	}
