@@ -1,34 +1,34 @@
 package zc.training.practice;
 
 public class Calculator {
-	public static void addMethod(int num1, int num2) {
-		int sum = num1 + num2;
+	public static void add(int first, int second) {
+		int sum = first + second;
 		System.out.println(sum);
 	}
 
-	public static void subtractMethod(int num1, int num2) {
-		int sub = num1 - num2;
+	public static void subtract(int first, int second) {
+		int sub = first - second;
 		System.out.println(sub);
 
 	}
 
-	public static void divisionMethod(int num1, int num2) {
-		int div = num1 / num2;
+	public static void division(int first, int second) {
+		int div = first / second;
 		System.out.println(div);
 	}
 
-	public static void mutliplactionMethod(int num1, int num2) {
-		int mult = num1 * num2;
+	public static void mutliplaction(int first, int second) {
+		int mult = first * second;
 		System.out.println(mult);
 	}
 
 	public static void main(String[] args) {
-		int num1 = 5;
-		int num2 = 2;
-		addMethod(num1, num2);
-		divisionMethod(num1, num2);
-		mutliplactionMethod(num1, num2);
-		subtractMethod(num1, num2);
+		int first = 5;
+		int second = 2;
+		add(first, second);
+		division(first, second);
+		mutliplaction(first, second);
+		subtract(first, second);
 
 	}
 
